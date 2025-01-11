@@ -1,0 +1,4 @@
+baseURL = 'https://pbs-tech.github.io/'
+languageCode = 'en-gb'
+title = 'Blog'
+theme = 'ananke'
