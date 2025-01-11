@@ -1,4 +1,133 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = 'localhost'
+languageCode = 'en-gb'
+title = 'PBS Blog'
+theme = 'hello-friend-ng'
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[params]
+
+  homeSubtitle = "A personal blog for all things tech, music and everything inbetween."
+
+  disableReadOtherPosts = false
+
+  enableSharingButtons = true
+  
+  enableGlobalLanguageMenu = true
+
+
+  description = "A personal blog for all things tech, music and everything inbetween"
+  keywords = "homepage, blog, tech, music, music production, cloud, devops, platform engineering"
+
+
+  [params.author]
+    name = 'Alex Peebles'
+
+  [params.footer]
+    rss = true
+    copyright = true
+    author = true
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Theme made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:nobody@example.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/pbs-tech"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/pbs-tech"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://www.stackoverflow.com/"
+
+[taxonomies]
+
+  category = 'blog'
+  tag = 'tags'
+  series = 'series'
+
+
+[languages]
+  [languages.en]
+    title = "PBS Blog"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    keywords = "homepage, blog, tech, music, music production, cloud, devops, platform engineering"
+    readOtherPosts = "Read other posts"
+
+
+  [languages.en.params]
+
+    Subtitle = "A personal blog for all things tech, music and everything inbetween"
+
+    [languages.en.params.logo]
+      logoText = ""
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+
+[pagination]
+  pagerSize = 10
+
+[services]
+  [services.rss]
+      # Maximum number of items in the RSS feed.
+      limit = 42
