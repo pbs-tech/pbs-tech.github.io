@@ -39,8 +39,6 @@ disableHugoGeneratorInject = false
 
   enableSharingButtons = true
   
-  enableGlobalLanguageMenu = true
-
 
   description = "A personal blog for all things tech, music and everything inbetween"
   keywords = "homepage, blog, tech, music, music production, cloud, devops, platform engineering"
@@ -107,12 +105,7 @@ disableHugoGeneratorInject = false
     [languages.en.params.logo]
       logoText = ""
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
-  # And you can even create generic menu
   [[menu.main]]
     identifier = "about"
     name       = "About"
