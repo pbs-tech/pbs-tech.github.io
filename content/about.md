@@ -5,7 +5,7 @@ title = 'Hello World'
 
 
 I'm Alex, a tech generalist who loves developing all sorts,
-from static websites to LLMs. I have a passion for tech, data programming and people.
+from static websites to LLMs. I have a passion for tech, data, programming and people.
 
 Keen Linux user, music producer, programmer and chef.
 This blog will contain everything in-between,
