@@ -1,4 +1,4 @@
-baseURL = 'blog.peebles.lol'
+baseURL = 'https://blog.peebles.lol'
 languageCode = 'en-gb'
 title = 'PBS Blog'
 theme = 'hello-friend-ng'
