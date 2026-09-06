@@ -1,4 +1,4 @@
-baseURL = 'localhost'
+baseURL = 'https://blog.peebles.lol'
 languageCode = 'en-gb'
 title = 'PBS Blog'
 theme = 'hello-friend-ng'
@@ -38,7 +38,7 @@ disableHugoGeneratorInject = false
   disableReadOtherPosts = false
 
   enableSharingButtons = true
-  
+
 
   description = "A personal blog for all things tech, music and everything inbetween"
   keywords = "homepage, blog, tech, music, music production, cloud, devops, platform engineering"
